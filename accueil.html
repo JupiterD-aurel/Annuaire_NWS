@@ -5,20 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/accueil.css">
-	<title>Advergame</title>
-    <link rel="icon" href="images/nws_logo.png">
+	<title>Annuaire_nws</title>
+    <link rel="icon" href="images/logo_nws.svg">
 </head>
 
 <body>
 
-<div id="mainconteneur">
-    <img id="nwslogo" src="images/logo-advergame (2).png"></img>
-    <p id="title">Normandie Web School Memory Game !</p>
-    <p id="text">Les étudiants de l’école ne se souviennent plus des logos de leur logiciel peux-tu les aider à les retrouver !!!</p>
-    <a href="choixspe.html"><button class="playbutton">Jouer !</button></a>
-    <img id="fullscreenbutton" src="images/fullscreen.png" onclick="toggleFullScreen()" hidden="true"></img>
-</div>
-<script src="js/fullscreen.js"></script>
+    <div class="container">
+
+    <div id="logo"><img src="images/nws_logo.png" alt="logo_nws" height="100" width="100"></div>
+
+        <form method="" action="">
+
+                <label for="nom"></label>
+                <input type="text" name="nom" class="form_control" placeholder="Nom" id="nom" />
+
+                <label for="prenom"></label>
+                <input type="text" name="prenom" class="form_control" placeholder="Prenom" id="prenom" />
+
+                <label for="ville"></label>
+                <input type="text" name="ville" class="form_control" placeholder="ville de residence" id="email" />
+
+                <label for="email"></label>
+                <input type="text" name="email" class="form_control" placeholder="@Email" id="email" />
+
+
+            <button type="submit" name="valider" class="formButton">valider</button>
+
+        </form>
+
+    </div>
+
+
 </body>
 
 
