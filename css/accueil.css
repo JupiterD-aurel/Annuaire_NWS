@@ -6,110 +6,45 @@ body{
     background-size: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'fugaz one', sans-serif;
+}
+
+.sec_container{
+    width: 460px;
+    background-image: linear-gradient(to bottom, #00a5a5, #346a83);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.therd_container{
+    width: 260px;
+    background-image: linear-gradient(to bottom, #00a5a5, #346a83);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+color: #e94a34;
+margin-left: 30%;
+margin-top: 2%;
+}
+h1 a{
+color: #fec800;
 }
 
 
 .container {
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5px 0;
-}
-
-nav .logo {
-    width: 120px;
-    cursor: pointer;
-    font-size: 2.5rem;
-    font-style: oblique;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    padding-right: 40px;
-    text-align: right;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin-right: 10px;
-    visibility: hidden;
-    opacity: 0;
-}
-
-nav ul li a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #00a5a5;
-    font-size: 16px;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
-}
-
-.form_wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: auto;
-}
-
-.form_wrapper .card {
-    width: 360px;
-    padding: 20px;
-    background-image: linear-gradient(to bottom, #00a5a5, #346a83);
-    border-radius: 20px;
-    /*  visibility: hidden;
-        opacity: 0;*/
-    transition: opacity 0.3s, visibility 0.3s;
-}
-
-
-/* .card .show {
-        visibility: visible;
-        opacity: 1;
-    }*/
-
-.card_header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 50px 20px 0;
-    font-size: 1.1rem;
-    color: #EEEEEF;
-    box-shadow: 2px 3px 8px #663993;
-    border-radius: 50px;
-}
-
-.card_header .form_header {
-    flex: 50%;
-    text-align: center;
-    padding: 10px 0;
-    border: 1px solid transparent;
-    border-radius: 50px;
-    user-select: none;
-    cursor: pointer;
-}
-
-.card_header .form_header.active {
-    box-shadow: inset 1px 1px 2px rgb(19 210 177/55%), -1px 1px 2px rgb(19 210 177/55%), -1px -1px 2px rgb(19 210 177/55%), 1px -1px 2px rgb(19 210 177/55%);
-    border-color: #663993;
-    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-top: 2%;
 }
 
 .card_body {
@@ -130,52 +65,36 @@ form {
 }
 
 .form_control {
-    width: 100%;
+    width: 80%;
     border: none;
     border-bottom: 1px solid #663993;
     background: none;
     outline: none;
     padding: 10px 5px;
-    margin-bottom: 20px;
-    color: #EEEEEF;
+    margin-bottom: 15px;
+    color: #fec800;
 }
 
 button {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 40px;
+    font-family: 'fugaz one', sans-serif;
+    margin-top: 20px;
     width: 40%;
-    height: 20%;
+    height: 10%;
     border-radius: 30px;
-    color: #EEEEEF;
-    background-color: #240e3d;
+    color: #fec800;
+    background-color: #e94a34;
 }
 
 button:hover {
-    font-family: 'Montserrat', sans-serif;
-    color: #240e3d;
-    background-color: #EEEEEF;
+    font-family: 'fugaz one', sans-serif;
+    color: #e94a34;
+    background-color: #fec800;
     box-shadow: 3px 5px 5px;
     transform: translateY(-10px);
     transition: .3s;
 }
 
 .form_control::placeholder {
-    color: #663993;
-}
-
-button.btn {
-    padding: 10px 20px;
-    margin-top: -10px;
-    font-family: 'Montserrat', sans-serif;
-    width: 120px;
-    height: 40px;
-    border-radius: 30px;
-    color: #EEEEEF;
-    background-color: #240e3d;
-}
-
-button.btn:hover {
-    font-family: 'Montserrat', sans-serif;
-    color: #240e3d;
-    background-color: #EEEEEF;
+    color: #e94a34;
+    font-family: 'fugaz one', sans-serif;
 }

@@ -7,34 +7,19 @@
 	<link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="css/link.css">
 	<title>Annuaire_nws</title>
-    <link rel="icon" href="images/logo_nws.svg">
+    <link rel="icon" href="images/nws_logo.png">
 </head>
 
 <body>
 
     <div class="container">
-
-        <nav>
-            <a href="#" class="logo">    <div id="logo"><img src="images/nws_logo.png" alt="logo_nws" height="100" width="100"></div></a>
-         <div class="btn" id="displayForm"></div>
-        </nav>
-
         <section>
             <div class="sec_container">
-                <div class="form_wrapper">
-                    <div class="card">
-                        <div class="card_header">
-                            <div id="forLogin" class="form_header active">Se connecter</div>
-                            <div id="forRegister" class="form_header">S'inscrire</div>
-                        </div>
                         <div class="card_body" id="formContainer">
                             <form method="#" action="" id="loginForm">
                                 <input type="text" name="nom" class="form_control" placeholder="@Nom" />
                                 <input type="text" name="prenom" class="form_control" placeholder="@Prenom" />
                                 <input type="text" name="ville" class="form_control" placeholder="@Ville de residence" />
-                                <input type="text" name="code" class="form_control" placeholder="@Mot de passe" />
-                                <input type="text" name="mail" class="form_control" placeholder="@Addresse mail" />
-                                <input type="text" name="portable" class="form_control" placeholder="@portable" />
                                 <select type="text" name="class" class="form_control" >
                                 <option value="">--Quel est votre niveau--</option>
                                     <option value="Seconde">Seconde</option>
@@ -46,6 +31,16 @@
                                     <option value="Bts/But/Dut">Bts/But/Dut</option>
                                 </select>
                                 <select type="text" name="class" class="form_control" >
+                                <option value="">--Spécilité Souhaité--</option>
+                                    <option value="Developpement">Developpement</option>
+                                    <option value="com-graphique">cg</option>
+                                    <option value="smm">smm</option>
+                                    <option value="comm">cm</option>
+                                </select>
+                                <input type="text" name="code" class="form_control" placeholder="@Mot de passe" />
+                                <input type="text" name="mail" class="form_control" placeholder="@Addresse mail" />
+                                <input type="text" name="portable" class="form_control" placeholder="@portable" />
+                                <select type="text" name="niveau--" class="form_control" >
                                 <option value="">--Année Souhaité--</option>
                                     <option value="Année 1">Année 1</option>
                                     <option value="Année 2">Année 2</option>
@@ -54,16 +49,11 @@
                                 </select>
                                 <button type="submit" name="valider" class="formButton">Valider</button>
                             </form>
-                            <form action="#" method="post" id="registerForm" class="toggleForm">
-                                <input type="text" name="pseudo" class="form_control" placeholder="@utilissateur" />
-                                <input type="password" name="mdp" class="form_control" placeholder="@Mot de passe" />
-                                <button type="submit" name="valider" class="formButton">connection</button>
-                            </form>
+
                         </div>
-                    </div>
                 </div>
             </div>
-
+            <H1>Déja membre inscrit? connecte toi <a href="connexion.html">ICI</a></H1>
 
         </section>
 
