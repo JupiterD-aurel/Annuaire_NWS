@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
@@ -11,7 +12,7 @@ body{
 
 .sec_container{
     width: 460px;
-    background-image: linear-gradient(to bottom, #353333, #28292b);
+    background-image: linear-gradient(to bottom, #00a5a5, #346a83);
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -67,15 +68,13 @@ form {
 .form_control {
     width: 80%;
     border: none;
-    border-bottom: 1px solid #00a5a5;
+    border-bottom: 1px solid #663993;
     background: none;
     outline: none;
     padding: 10px 5px;
     margin-bottom: 15px;
-    color: #00a5a5;
+    color: #fec800;
 }
-
-
 button {
     font-family: 'fugaz one', sans-serif;
     margin-top: 20px;
@@ -86,7 +85,7 @@ button {
     border-radius: 30px;
     color: #fec800;
     background-color: #e94a34;
-
+    transition: all 0.3s;
 }
 
 button:hover {
