@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/link.css">
 	<title>Annuaire_nws</title>
     <link rel="icon" href="images/logo_nws.svg">
 </head>
@@ -13,28 +14,62 @@
 
     <div class="container">
 
-    <div id="logo"><img src="images/nws_logo.png" alt="logo_nws" height="100" width="100"></div>
+        <nav>
+            <a href="#" class="logo">    <div id="logo"><img src="images/nws_logo.png" alt="logo_nws" height="100" width="100"></div></a>
+         <div class="btn" id="displayForm"></div>
+        </nav>
 
-        <form method="" action="">
+        <section>
+            <div class="sec_container">
+                <div class="form_wrapper">
+                    <div class="card">
+                        <div class="card_header">
+                            <div id="forLogin" class="form_header active">Se connecter</div>
+                            <div id="forRegister" class="form_header">S'inscrire</div>
+                        </div>
+                        <div class="card_body" id="formContainer">
+                            <form method="#" action="" id="loginForm">
+                                <input type="text" name="nom" class="form_control" placeholder="@Nom" />
+                                <input type="text" name="prenom" class="form_control" placeholder="@Prenom" />
+                                <input type="text" name="ville" class="form_control" placeholder="@Ville de residence" />
+                                <input type="text" name="code" class="form_control" placeholder="@Mot de passe" />
+                                <input type="text" name="mail" class="form_control" placeholder="@Addresse mail" />
+                                <input type="text" name="portable" class="form_control" placeholder="@portable" />
+                                <select type="text" name="class" class="form_control" >
+                                <option value="">--Quel est votre niveau--</option>
+                                    <option value="Seconde">Seconde</option>
+                                    <option value="Premiere">Premiere</option>
+                                    <option value="Terminal">Terminal</option>
+                                    <option value="Bac + 1">Bac + 1</option>
+                                    <option value="Bac + 2">Bac + 2</option>
+                                    <option value="Bac + 3">Bac + 3</option>
+                                    <option value="Bts/But/Dut">Bts/But/Dut</option>
+                                </select>
+                                <select type="text" name="class" class="form_control" >
+                                <option value="">--Année Souhaité--</option>
+                                    <option value="Année 1">Année 1</option>
+                                    <option value="Année 2">Année 2</option>
+                                    <option value="Année 3">Année 3</option>
+                                    <option value="Master">Master</option>
+                                </select>
+                                <button type="submit" name="valider" class="formButton">Valider</button>
+                            </form>
+                            <form action="#" method="post" id="registerForm" class="toggleForm">
+                                <input type="text" name="pseudo" class="form_control" placeholder="@utilissateur" />
+                                <input type="password" name="mdp" class="form_control" placeholder="@Mot de passe" />
+                                <button type="submit" name="valider" class="formButton">connection</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <label for="nom"></label>
-                <input type="text" name="nom" class="form_control" placeholder="Nom" id="nom" />
 
-                <label for="prenom"></label>
-                <input type="text" name="prenom" class="form_control" placeholder="Prenom" id="prenom" />
-
-                <label for="ville"></label>
-                <input type="text" name="ville" class="form_control" placeholder="ville de residence" id="email" />
-
-                <label for="email"></label>
-                <input type="text" name="email" class="form_control" placeholder="@Email" id="email" />
-
-
-            <button type="submit" name="valider" class="formButton">valider</button>
-
-        </form>
+        </section>
 
     </div>
+
+    <script src="js/Script.js"></script>
 
 
 </body>
