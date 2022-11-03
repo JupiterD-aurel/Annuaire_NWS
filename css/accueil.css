@@ -7,37 +7,21 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'fugaz one', sans-serif;
-}
-
-.sec_container{
-    width: 460px;
-    background-image: linear-gradient(to bottom, #353333, #28292b);
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.therd_container{
-    width: 260px;
-    background-image: linear-gradient(to bottom, #00a5a5, #346a83);
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
+font-size: 15px;
 }
 
 h1{
 color: #e94a34;
-margin-left: 30%;
-margin-top: 2%;
+margin-left: 32%;
+margin-top: 1%;
 }
 h1 a{
 color: #fec800;
 }
 
-
 .container {
     height: auto;
     width: 100%;
-    position: relative;
 }
 
 section {
@@ -51,7 +35,7 @@ section {
     display: flex;
     flex-wrap: nowrap;
     padding: 40px 0;
-    text-align: center;
+
 }
 
 form {
@@ -64,29 +48,13 @@ form {
     transition: opacity 0.3s, visibility 0.3s;
 }
 
-.form_control {
-    width: 80%;
-    border: none;
-    border-bottom: 1px solid #00a5a5;
-    background: none;
-    outline: none;
-    padding: 10px 5px;
-    margin-bottom: 15px;
-    color: #00a5a5;
-}
+h5{
+color: #e94a34;
 
+}
 
 button {
     font-family: 'fugaz one', sans-serif;
-    margin-top: 20px;
-    cursor: pointer;
-    width: 40%;
-    height: 10%;
-    font-size: 20px;
-    border-radius: 30px;
-    color: #fec800;
-    background-color: #e94a34;
-
 }
 
 button:hover {
