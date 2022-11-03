@@ -36,7 +36,7 @@ if(isset($_POST['supprimer']))
 }
 
 //partie Modification
-
+/*
 if(isset($_POST['modif_contact']))
     {
        	$ann_id = $_POST['ann_id'];
@@ -91,7 +91,7 @@ $query_execute = $statement->execute($data);
 
     }catch(PDOException $e){
         echo $e->getMessage();
-}
+}*/
 
 
 //Partie ajout

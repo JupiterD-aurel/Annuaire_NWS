@@ -1,6 +1,8 @@
 <?php
     session_start();
     require 'connect.php';
+
+
 ?>
 <!doctype html>
 <html lang="fr">
@@ -24,7 +26,6 @@
                  unset( $_SESSION['message']); 
                  endif;
             ?>
-
                 <div class="card">
                     <div class="card-header">
                         <h4>Details des contacts
@@ -81,7 +82,7 @@
                                             <td><a href="edit.php?id<?=$row->an_id; ?>" class="btn btn-primary">Modif</a></td>
                                             <td>
                                                 <form action="code.php" method="POST">
-                                                    <button type="submit" name="supprimer" value="<?=$row->an_id; ?>" class="btn btn-danger">Supprimer</button>
+                                                    <button type="submit" name="supprimer" value="<?=$row->an_id; ?>" class="btn btn-danger">Effacer</button>
                                                 </form>
                                             </td>
 
